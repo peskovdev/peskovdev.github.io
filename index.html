@@ -15,20 +15,19 @@
   <header class="p-3 mb-3 border-bottom">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-        </a>
-
+        <a href="#" class="nav-link px-2 link-secondary" style="font-size: 1.5em">Peskov Sergey</a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Peskov Sergey</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">My projects</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark" style="font-size: 1.3em">My projects</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark" style="font-size: 1.3em">Certificates</a></li>
         </ul>
 
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="https://t.me/peskovdev"><p class="bi bi-telegram link-dark" style="font-size: 1.7em"></p></a></li>
-          <li class="ms-3"><a class="link-dark" href="https://github.com/peskovdev"><p class="bi bi-github link-dark" style="font-size: 1.7em"></p></a></li>
-          <li class="ms-3"><a class="link-dark" href="https://twitter.com/peskovdev"><p class="bi bi-twitter link-dark" style="font-size: 1.7em"></p></a></li>
-          <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/in/peskovdev/"><p class="bi bi-linkedin link-dark" style="font-size: 1.7em"></p></a></li>
+        <ul class="list-unstyled d-flex" style="font-size: 1.7em">
+          <li class="ms-3"><i class="bi bi-chevron-left link-secondary"></i></li>
+          <li class="ms-3"><a href="https://t.me/peskovdev"><i class="bi bi-telegram link-secondary"></i></a></li>
+          <li class="ms-3"><a href="https://github.com/peskovdev"><i class="bi bi-github link-secondary"></i></a></li>
+          <li class="ms-3"><a href="https://twitter.com/peskovdev"><i class="bi bi-twitter link-secondary"></i></a></li>
+          <li class="ms-3"><a href="https://www.linkedin.com/in/peskovdev/"><i class="bi bi-linkedin link-secondary"></i></a></li>
+          <li class="ms-3"><i class="bi bi-chevron-right link-secondary"></i></li>
         </ul>
       </div>
     </div>
@@ -36,34 +35,38 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-4">
-        <h1>Peskov Sergey</h1>
-        <h2>Python Developer | Flask</h2>
+      <div class="col-12 col-lg-4">
+        <h1>Python Dev | Flask</h1>
 
-        <p>
-        Lorem vel ab rerum neque inventore Rerum architecto fugiat tenetur veritatis temporibus Vitae dolorem eaque accusantium et unde eius, at. Doloribus fugiat quidem illo omnis omnis atque assumenda, sed Facilis?
-        Amet quaerat quis nihil dolorum exercitationem? At eaque adipisci eveniet pariatur voluptatibus dolorem maxime eveniet Impedit fugit quis dignissimos repellat quisquam odit enim. Accusamus sunt quos nostrum ad doloremque Assumenda
-        Adipisicing eaque maiores veniam eveniet totam Voluptatibus enim repudiandae cum modi aperiam? Debitis quia accusantium accusamus reprehenderit minus architecto Maxime odit omnis perspiciatis inventore ea. Dolores optio corporis blanditiis excepturi?
-        </p>
+        <div>Consectetur corporis fuga placeat aperiam obcaecati? Nihil porro ea repellendus delectus beatae? Aliquam ipsa similique ullam asperiores repudiandae Corrupti deserunt est adipisci nemo similique Quam at quam nisi sit repellendus</div>
+        <div>Amet numquam quibusdam nihil fuga eum! Voluptas soluta natus laudantium quidem delectus Perspiciatis id neque laborum similique officiis, obcaecati Earum eaque delectus et distinctio repellat Possimus laudantium quidem quo fuga</div>
+        <div>Adipisicing sit inventore voluptate modi fuga beatae, voluptatibus. Blanditiis corrupti culpa quidem dignissimos nisi? Id deserunt iste incidunt atque fugiat? Rem odit dignissimos molestias iste soluta! Nostrum repellendus nesciunt dicta.</div>
       </div>
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-lg-8">
         <div class="dropdown link-dark">
-          <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Resumes
+          <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            My Resumes
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Python/Golang</a></li>
             <li><a class="dropdown-item" href="#">Django Developer</a></li>
-            <li><a class="dropdown-item" href="#">Java-Monkey</a></li>
+            <li><a class="dropdown-item" href="#">JS-Monkey</a></li>
           </ul>
         </div>
 
         <div class="d-md-block d-none">
-        <iframe src="Peskov_Sergey_Python_Developer_CV.pdf" style="width: 1000px; height: 1415px;" frameborder="0">Your browser doesn't support frames</iframe>
+          <iframe id="iframe" src="Peskov_Sergey_Python_Developer_CV.pdf"
+            title="flask"
+            style="width: 100%; height: 1205px;" <!-- NOTE: not adaptive height -->
+            frameborder="0"
+            allowfullscreen >
+            Your browser doesn't support frames
+          </iframe>
         </div>
         <div class="d-md-none d-block">
-          download
+          <a class="btn btn-outline-secondary" href="Peskov_Sergey_Python_Developer_CV.pdf" download="file">Download resume</a>
         </div>
+
       </div>
     </div>
   </div>
